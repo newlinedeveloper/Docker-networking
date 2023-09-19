@@ -118,5 +118,3 @@ Certainly, here are some commands and samples you can include in the blog to hel
 - **Segment and Isolate Networks:**
 
     Utilize Docker's built-in network segmentation to isolate services from each other. Design your network topologies to minimize exposure.
-
-Feel free to integrate these commands and samples into your blog as you see fit, and adjust them according to your specific use cases and examples.
