@@ -2,7 +2,7 @@
 Docker Networking Basics and Advanced topics
 Certainly, here are some commands and samples you can include in the blog to help readers implement Docker networking:
 
-**Chapter 2: Docker Bridge Networking**
+**Docker Bridge Networking**
 
 - **Create a Custom Bridge Network:**
 
@@ -16,7 +16,7 @@ Certainly, here are some commands and samples you can include in the blog to hel
     docker run -d --name my-container --network my-bridge-network nginx
     ```
 
-**Chapter 3: Docker Host Networking**
+**Docker Host Networking**
 
 - **Run a Container Using Host Networking:**
 
@@ -24,7 +24,7 @@ Certainly, here are some commands and samples you can include in the blog to hel
     docker run -d --name my-container --network host nginx
     ```
 
-**Chapter 4: Docker Overlay Networking**
+**Docker Overlay Networking**
 
 - **Create an Overlay Network:**
 
@@ -38,7 +38,7 @@ Certainly, here are some commands and samples you can include in the blog to hel
     docker service create --name my-service --network my-overlay-network nginx
     ```
 
-**Chapter 5: Docker Macvlan Networking**
+**Docker Macvlan Networking**
 
 - **Create a Macvlan Network:**
 
@@ -52,7 +52,7 @@ Certainly, here are some commands and samples you can include in the blog to hel
     docker run -d --name my-container --network my-macvlan-network nginx
     ```
 
-**Chapter 6: Advanced Docker Networking**
+**Advanced Docker Networking**
 
 - **Leverage Docker Compose for Multi-Container Setup:**
 
@@ -77,7 +77,7 @@ Certainly, here are some commands and samples you can include in the blog to hel
     docker-compose up -d
     ```
 
-**Chapter 7: Docker Networking Tools**
+**Docker Networking Tools**
 
 - **List Docker Networks:**
 
@@ -91,7 +91,7 @@ Certainly, here are some commands and samples you can include in the blog to hel
     docker network inspect my-network
     ```
 
-**Chapter 8: Troubleshooting Docker Networking**
+**Troubleshooting Docker Networking**
 
 - **Check Container Network Connectivity:**
 
@@ -105,7 +105,7 @@ Certainly, here are some commands and samples you can include in the blog to hel
     docker exec -it my-container tcpdump -i eth0
     ```
 
-**Chapter 9: Security Best Practices**
+**Security Best Practices**
 
 - **Limit Container Access to Host Resources:**
 
